@@ -1,5 +1,8 @@
 # viam-ros2-gazebo-turtlebot-waffle
 
+![ezgif com-video-to-gif](https://github.com/Gaurang-1402/viam-ros2-gazebo-turtlebot-waffle/assets/71042887/c83a330f-1044-44df-91d1-ac8bcf1a77fd)
+
+
 Some of these instructions have been adapted from
 
 https://github.com/viam-soleng/viam-ros2-integration/tree/main
@@ -18,8 +21,6 @@ git clone https://github.com/Gaurang-1402/viam-ros2-gazebo-turtlebot-waffle/
 3. viam location
 4. ROS2 Humble
 5. python venv module installed
-
-
 
 
 
