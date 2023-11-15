@@ -145,8 +145,29 @@ export VIAM_ROS_NAMESPACE=""
 ```
 Save and Exit
 
+## Viam Configuration
+
+On the Config tab in Viam, under Components, Create component and add ``` viam-soleng:ros2:base ``` plus ``` viam-soleng:ros2:camera ```
+
+![Screenshot from 2023-11-15 18-15-05](https://github.com/Gaurang-1402/viam-ros2-gazebo-turtlebot-waffle/assets/71042887/52d7ca77-c93f-46b7-a850-e8b56da4f464)
 
 
+Enter the following details
+
+```
+{
+  "ros_topic": "/camera/image_raw"
+}
+
+```
+and
+
+```
+{
+  "publish_rate": "0.9",
+  "ros_topic": "/cmd_vel"
+}
+```
 
 
 ## Credits
