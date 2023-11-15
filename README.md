@@ -149,9 +149,17 @@ Save and Exit
 
 
 
-
+## Credits
+Simulation adapted from: 
+- https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git -b humble-devel
+- https://github.com/ROBOTIS-GIT/turtlebot3.git -b humble-devel
+- https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git -b humble-devel
+- https://github.com/ROBOTIS-GIT/DynamixelSDK.git -b humble-devel
 
 https://medium.com/@nilutpolkashyap/setting-up-turtlebot3-simulation-in-ros-2-humble-hawksbill-70a6fcdaf5de
 
 https://www.viam.com/post/creating-a-ros2-integration-module-and-deploying-to-a-robot
+I am deeply appreciative of these individuals/teams for sharing their work to build on top of!
+
+
 
