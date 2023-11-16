@@ -2,7 +2,7 @@
 
 ![ezgif com-video-to-gif](https://github.com/Gaurang-1402/viam-ros2-gazebo-turtlebot-waffle/assets/71042887/c83a330f-1044-44df-91d1-ac8bcf1a77fd)
 
-![output-onlinegiftools](https://github.com/Gaurang-1402/viam-ros2-gazebo-turtlebot-waffle/assets/71042887/42cc87f7-2c64-413e-a5d1-a3609f5acfd0)
+
 
 Some of these instructions have been adapted from
 
