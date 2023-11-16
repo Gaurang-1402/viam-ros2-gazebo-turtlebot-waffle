@@ -67,10 +67,7 @@ with the ones found in the link above.
 
 We first go to the etc folder
 
-```shell
-cd /etc
-mkdir turtlebot
-```
+
 
 Make a new directory in /etc
 
@@ -96,6 +93,13 @@ export WORKSPACE_SETUP=/opt/ros/humble/setup.bash
 Save and exit
 
 We need to also create the fastdds_rpi.xml. To do this, we run,
+
+```shell
+cd turtlebot
+nano fastdds_rpi.xml
+```
+
+Paste this in
 
 ```
 
