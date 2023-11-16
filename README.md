@@ -16,6 +16,28 @@ cd turtlebot_ws
 git clone https://github.com/Gaurang-1402/viam-ros2-gazebo-turtlebot-waffle/
 ```
 
+We can now build the ros2_ws
+
+
+```shell
+colcon build --symlink-install
+source install/setup.sh
+```
+
+TurtleBot3 World:
+
+```shell
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+```
+
+TurtleBot3 House:
+
+```shell
+ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
+```
+
+
+
 ## Requirements
 1. viam account 
 2. viam organization 
@@ -75,7 +97,7 @@ Save and exit
 
 We need to also create the fastdds_rpi.xml. To do this, we run,
 
-```shell
+```
 
   GNU nano 6.2                                                 fastdds_rpi.xml                                                          
 <?xml version="1.0" encoding="UTF-8" ?>
