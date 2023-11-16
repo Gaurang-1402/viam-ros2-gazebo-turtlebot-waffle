@@ -3,6 +3,14 @@
 ![ezgif com-video-to-gif](https://github.com/Gaurang-1402/viam-ros2-gazebo-turtlebot-waffle/assets/71042887/c83a330f-1044-44df-91d1-ac8bcf1a77fd)
 
 
+## Requirements
+1. viam account 
+2. viam organization 
+3. viam location
+4. ROS2 Humble
+5. python venv module installed
+
+
 
 Some of these instructions have been adapted from
 
@@ -36,14 +44,6 @@ TurtleBot3 House:
 ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 ```
 
-
-
-## Requirements
-1. viam account 
-2. viam organization 
-3. viam location
-4. ROS2 Humble
-5. python venv module installed
 
 
 
