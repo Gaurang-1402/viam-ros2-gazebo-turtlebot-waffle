@@ -59,7 +59,7 @@ connect to the ROS2 system. When using fastdds we might be using shared memory a
 is the case the Viam module will not be able to connect to the ROS2 node by default.
 
 Currently, modules start as `root` by default[^1] which causes issue with shared memory as ROS2 typically
-runs as a non-root user.  To compensate for this Viam has provided a [sample config](./sample_configs/fastdds_rpi.xml)
+runs as a non-root user.  To compensate for this Viam has provided a [sample config](https://github.com/viam-soleng/viam-ros2-integration/blob/main/sample_configs/setup.bash)
 which shows how to configure the `UDP4` transport.
 
 Based on the configuration you are using replace the contents of the xml file for your ROS2 DDS configuration
